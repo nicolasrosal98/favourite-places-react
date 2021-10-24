@@ -1,4 +1,4 @@
-function PageHeader():  JSX.Element {
+function PageHeader(): JSX.Element {
   return <h1>My Favorite Places</h1>;
 }
 
