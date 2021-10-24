@@ -15,8 +15,10 @@ function PlaceEntries(props: PlaceEntry): JSX.Element {
         <strong>{props.title}</strong>
       </h1>
       <h2>
-        <strong>{props.placeName}</strong>(
-        <a href={props.googleLocation}>map link</a>)
+        <strong>
+          {props.placeName}, {props.countryName} (
+          <a href={props.googleLocation}>map link</a>)
+        </strong>
       </h2>
       <p>{props.explanation}</p>
     </>
