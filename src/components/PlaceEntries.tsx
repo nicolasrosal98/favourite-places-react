@@ -1,3 +1,5 @@
+import "../css/PlaceEntries.css";
+
 interface PlaceEntry {
   title: string;
   placeName: string;
@@ -9,7 +11,7 @@ interface PlaceEntry {
 
 function PlaceEntries(props: PlaceEntry): JSX.Element {
   return (
-    <>
+    <div className="item">
       <img src={props.img} alt={props.placeName}></img>
       <h1>
         <strong>{props.title}</strong>
@@ -21,7 +23,7 @@ function PlaceEntries(props: PlaceEntry): JSX.Element {
         </strong>
       </h2>
       <p>{props.explanation}</p>
-    </>
+    </div>
   );
 }
 

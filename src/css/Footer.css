@@ -1,0 +1,17 @@
+p {
+  background-color: grey;
+  color: white;
+  padding: 10px 20px 20px 10px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: gold;
+}

@@ -1,8 +1,9 @@
+import "../css/PageHeader.css";
+
 function PageHeader(): JSX.Element {
   return (
     <>
-      <h1>My Favorite Places</h1>
-      <p>by Nicolas Rosal</p>
+      <h1 className="center">My Favorite Places</h1>
     </>
   );
 }
