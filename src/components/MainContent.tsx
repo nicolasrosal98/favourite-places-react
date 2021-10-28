@@ -1,5 +1,6 @@
 import PlaceEntries from "./PlaceEntries";
-import places from "../components/places";
+import places from "./places";
+import "../css/MainContent.css";
 
 function MainContent(): JSX.Element {
   return (
@@ -15,7 +16,6 @@ function MainContent(): JSX.Element {
           key={place.key}
         />
       ))}
-      ;
     </>
   );
 }
